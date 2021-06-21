@@ -83,6 +83,7 @@ form button:hover {
   flex: 1;
 }
 
+
 /* TASKS BUTTONS */
 .complete_btn,
 .delete_btn {
@@ -121,4 +122,16 @@ form button:hover {
 .fall {
   transform: translateY(4rem) scale(0.4) rotateZ(20deg);
   opacity: 0;
+}
+
+.clearAll {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  background: linear-gradient(120deg, #ff0099, #493240);
+  border-radius: 7px;
+  margin-top: 10px  ;
+  margin-left: 420px;
+  width: 500px;
+  color: #fff;
 }

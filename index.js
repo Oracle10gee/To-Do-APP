@@ -2,6 +2,7 @@
 const todoInput = document.querySelector('.todo_input');
 const todoButton = document.querySelector('.todo_button');
 const todoList = document.querySelector('.todo_list');
+const clearAll=document.getElementById('clearAll').addEventListener('click', handleClearAll)
 
 todoButton.addEventListener("click", addTodo)
 todoList.addEventListener("click", deleteCheck)
@@ -53,4 +54,8 @@ function deleteCheck(e) {
         const todo = item.parentElement;
         todo.classList.toggle("completedItem")
     }
+}
+
+function handleClearAll(e) {
+    todoList.innerHTML = "";
 }

@@ -1,36 +1,47 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="./file.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./file.css" />
     <title>To-Do List App</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <div class="text">
-            <h1>TO-DO APPLICATION</h1>
-            </div>
+      <div class="header">
+        <div class="text">
+          <h1>TO-DO APPLICATION</h1>
         </div>
+      </div>
 
-        <form>
-            <input type="text" placeholder="Enter Your Task Here" class="todo_input" />
-            <div class="todo_button">
-            <button type="submit">
-                click here to add
-            </button>
-            </div>
-        </form>
-        
-        <div class="todo_container">
-            <ul class="todo_list"></ul>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter Your Task Here"
+          class="todo_input"
+        />
+        <div class="todo_button">
+          <button type="submit">click here to add</button>
         </div>
-        <!-- MY JS-->
-        <script src="./index.js"></script>
+      </form>
+
+      <div class="todo_container">
+        <ul class="todo_list"></ul>
+      </div>
+      <div class="clearAll" id="clearAll">
+        <a href="#" style="color: #fff;">Clear All</a>
+      </div>
+      <!-- MY JS-->
+      <script src="./index.js"></script>
     </div>
-</body>
+  </body>
 </html>
